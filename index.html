@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ella's Hangman</title>
+    <h1>HANGMAN</h1>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body onload = "addButtons()">
+   <div>Select Level of Difficulty</div>
+        <select id="level">
+            <option value="0">Easy</option>
+            <option value="1">Medium</option>
+            <option value="2">Hard</option>
+        </select>
+
+   <div>Select Category</div>
+        <select id="category">
+            <option value="0">Colors</option>
+            <option value="1">Sports</option>
+            <option value="2">Fruits</option>
+        </select>
+
+<div></div>
+<button onclick="startGame()" id="new game">Start New Game!</button>
+<br>
+<img id="image"/>
+
+<div id="word"></div>
+
+<div id="buttoncontainer"></div>
+
+<div id="output"></div>
+
+<div id="guesses"></div>
+<div id="left"></div>
+
+
+</body>
+</html>
